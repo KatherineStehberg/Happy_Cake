@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 export default function Contact() {
     const [data, setData] = useState({
         email: '',
@@ -7,7 +9,6 @@ export default function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-       
     };
     
     const handleChange = (e) => {
@@ -35,3 +36,4 @@ export default function Contact() {
         </div>
     );
 }
+

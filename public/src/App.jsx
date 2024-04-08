@@ -1,8 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom"; // Import BrowserRouter as Router
-import Navigation from "./src/components/Navbar"; // Correct import path for Navigation
-import AppRoutes from "./AppRoutes"; // Correct import path for AppRoutes
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import CSS file before custom components
+import { BrowserRouter as Router } from "react-router-dom";
+import Navigation from "./src/components/Navbar";
+import AppRoutes from "./AppRoutes";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
